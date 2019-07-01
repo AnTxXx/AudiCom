@@ -120,13 +120,23 @@ figcaption{
 }
 
 
-#hallo{
+.hallo{
 	font-family: 'Barlow', sans-serif;
 	font-size:30px;
 	text-align:center;
 	margin:20px 0;
 }
 
+
+/*section audio game editor*/
+#age_header{
+	margin-top:100px;
+}
+#oe_xs{
+	max-width:350px;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 /*helper*/
 .vcenter{
@@ -138,6 +148,17 @@ figcaption{
 	background-color:#B1B1B1;
 }
 
+#logo_netidee{
+    max-width: 230px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.show_when_xs{
+	display:none;
+}
 
 /*mobile*/
 @media (max-width: 991px) {
@@ -156,5 +177,11 @@ figcaption{
 	}
 	#under_construction_box{
 		display:none;
+	}
+	.hide_when_xs{
+		display:none;
+	}
+	.show_when_xs{
+		display:block;
 	}
 }
